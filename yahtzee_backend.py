@@ -1,5 +1,32 @@
 import random
 
+def init_game():
+    game_state = {}
+    game_state['player'] = "?"
+    game_state['round'] = 1
+    game_state['roll'] = 1
+    game_state['status'] = 'WAIT_FOR_ROLL'
+    game_state['dice']   = [ '-', '-', '-', '-', '-'] 
+    game_state['locked'] = [ False, False, False, False, False ]
+    game_state['1'] = None
+    game_state['2'] = None
+    game_state['3'] = None
+    game_state['4'] = None
+    game_state['5'] = None
+    game_state['6'] = None
+    game_state['T'] = None
+    game_state['F'] = None
+    game_state['H'] = None
+    game_state['S'] = None
+    game_state['L'] = None
+    game_state['C'] = None
+    game_state['Y'] = None
+    game_state['UPPER TOTAL'] = 0
+    game_state['BONUS'] = 0
+    game_state['LOWER TOTAL'] = 0
+    game_state['TOTAL SCORE'] = 0
+    return game_state
+ 
 upper_rows =  [ '1', # ONES'
                 '2', # TWOS'
                 '3', # THREES'
