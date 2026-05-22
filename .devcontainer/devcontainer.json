@@ -1,0 +1,36 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/miniconda",
+  "hostRequirements": {
+    "cpus": 1
+  },
+  "waitFor": "onCreateCommand",
+  "updateContentCommand": "" ,
+  "postCreateCommand": "mv ~/.bashrc ~/.bashrc.bk ;  cp /workspaces/$RepositoryName/.profile/bashrc.ref /workspaces/$RepositoryName/.profile/bashrc; ln -s /workspaces/$RepositoryName/.profile/bashrc ~/.bashrc ; echo bash /workspaces/$RepositoryName/.profile/auto-commit-all.sh >> ~/.bashrc; echo setup bashrc; touch /workspaces/$RepositoryName/.profile/bash_history; ln -s /workspaces/$RepositoryName/.profile/bash_history ~/.bash_history ; echo setup bash_history; bash /workspaces/$RepositoryName/.profile/setup.sh",
+  "postStartCommand": "bash /workspaces/$RepositoryName/.profile/auto-commit-all.sh",
+  "customizations": {
+    "codespaces": {
+      "openFiles": [],
+      "remote.autoForwardPorts": false
+    },
+    "vscode": {
+      "extensions": [        
+        "ms-python.python",
+      ],
+      "settings": {
+        "git.autofetch": true,
+        "chat.disableAIFeatures": true,
+        "editor.tabSize": 4,
+        "terminal.integrated.defaultProfile.linux": "bash",
+        "terminal.integrated.profiles.linux": {
+          "bash": {
+            "path": "bash",
+            "icon": "terminal-bash"
+          }
+        }
+      }
+    }
+  }
+}
+
+
+        
