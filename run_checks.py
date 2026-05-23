@@ -36,7 +36,7 @@ mydice8 = [6,6,6,6,6]
 result = score_yahtzee(mydice8)
 print(f"running  on {mydice8} ... result is {result}")
 
-roll_dice()
+roll_dice(game_state)
 
 
 #game_state = init_game()
