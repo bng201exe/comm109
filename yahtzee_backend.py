@@ -128,7 +128,8 @@ def score_short_straight(dice):
     dice_set = set(sorted_dice)
     short_straights = [ (1,2,3,4), (2,3,4,5), (3,4,5,6)]
     for i in short_straights:
-        if i in 
+        if i in dice_set:
+            score = 30
     
     return score
 
