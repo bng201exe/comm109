@@ -209,7 +209,7 @@ def lock_dice(game_state, dice_to_keep):
 
 
 def toggle_dice(game_state, idx):
-    
+    dice_to_toggle = 
     return
 
 
