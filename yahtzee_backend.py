@@ -127,8 +127,8 @@ def score_short_straight(dice):
     short_straight_dice = sorted(set(dice_copy))
     print(short_straight_dice)
     short_straight1 = [1,2,3,4]
-    if short_straight_dice[0:]
-        score = 30
+    if short_straight_dice[0:4] == 
+        score = 30 
     
     return score
 
