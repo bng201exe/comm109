@@ -32,8 +32,8 @@ mydice7 = [2,2,4,5,6]
 result = score_chance(mydice7)
 print(f"running  on {mydice7} ... result is {result}")
 
-mydice7 = [2,2,4,5,6]
-result = score_chance(mydice7)
+mydice8 = [2,2,4,5,6]
+result = score_(mydice7)
 print(f"running  on {mydice7} ... result is {result}")
 
 #game_state = init_game()
