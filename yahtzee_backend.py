@@ -173,7 +173,7 @@ def score_yahtzee(dice):
     score = 0
     dice_copy = dice[:]
     dice_set = set(dice)
-    
+    print(dice_set)
     for i in range(1,7):
         if i == dice_set:
             score = 50
