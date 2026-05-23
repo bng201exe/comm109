@@ -125,7 +125,7 @@ def score_short_straight(dice):
     score = 0
     dice_copy = dice[:]
     short_straights = {(1,2,3,4), (2,3,4,5), (3,4,5,6)}
-    print(type(short_straights))
+    
     return score
 
 
