@@ -173,8 +173,8 @@ def score_yahtzee(dice):
     score = 0
     dice_copy = dice[:]
     dice_set = set(dice_copy)
-    print(dice)
-        score = 50
+    print(dice_set)
+
         
     return score
 
