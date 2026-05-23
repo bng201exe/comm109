@@ -40,8 +40,8 @@ print(f"running  on {mydice8} ... result is {result}")
 
 
 game_state = init_game()
-#game_state['locked'] = []
-#print(game_state)
+game_state['locked'] = []
+print(game_state)
 #roll_dice(game_state)
 #print(game_state)
 #display_game_state_debug(game_state)
