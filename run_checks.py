@@ -44,6 +44,7 @@ game_state = init_game()
 # print(game_state)
 # roll_dice(game_state)
 print(game_state["locked"])
+locked
 #display_game_state_debug(game_state)
 #print(game_state['locked'])
 #print(game_state['dice'])
