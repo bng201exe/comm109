@@ -130,6 +130,7 @@ def score_short_straight(dice):
         score = 30
     if dice_set == [2,3,4,5]:
         score = 30
+    if dice_set == []
     
     return score
 
