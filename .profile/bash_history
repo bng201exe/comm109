@@ -74,3 +74,7 @@ pytest
 /usr/bin/python3 /workspaces/comm109/test_score_full_house.py
 /usr/bin/python3 /workspaces/comm109/run_checks.py
 /usr/bin/python3 /workspaces/comm109/test_score_full_house.py
+python -m pytest
+pip install -U pytest
+pytest --version
+/usr/bin/python3 /workspaces/comm109/test_score_full_house.py
