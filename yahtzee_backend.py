@@ -125,7 +125,7 @@ def score_short_straight(dice):
     score = 0
     dice_copy = dice[:]
     short_straight_dice = sorted(set(dice_copy))
-    short_straight1 = [1,2,3,4])
+    short_straight1 = [1,2,3,4]
     if short_straight1 in short_straight_dice:
         score = 30
     
