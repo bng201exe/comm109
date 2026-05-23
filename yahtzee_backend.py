@@ -191,7 +191,7 @@ def roll_dice(game_state):
     for i in range(5):
         if locked_copy[i] == False:
             indices.append(i)
-    for i in game_state[""]
+    for i in game_state["dice"]:
     print(indices)
     
     return
