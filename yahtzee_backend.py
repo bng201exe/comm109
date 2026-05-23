@@ -175,7 +175,8 @@ def score_yahtzee(dice):
     dice_set = set(dice_copy)
     dice_list = list(dice_set)
 
-    for 
+    for i in range(1,7):
+        if i
 
     print(dice_list)
 
