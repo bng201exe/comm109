@@ -191,7 +191,8 @@ def roll_dice(game_state):
         if locked_copy[i] == False:
             indices.append(i)
     for i in indices:
-        roll = 
+        roll = random.ranint(1,6)
+        
 
     print(indices)
     
