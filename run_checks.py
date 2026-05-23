@@ -33,8 +33,8 @@ result = score_chance(mydice7)
 print(f"running  on {mydice7} ... result is {result}")
 
 mydice8 = [2,2,4,5,6]
-result = score_(mydice7)
-print(f"running  on {mydice7} ... result is {result}")
+result = score_yahtzee(mydice8)
+print(f"running  on {mydice8} ... result is {result}")
 
 #game_state = init_game()
 #game_state['locked'] = []
