@@ -177,7 +177,8 @@ def score_yahtzee(dice):
     sorted_dice_set = sorted(set(dice))
     for i in range(1,7):
         if sorted_dice_set == i:
-            score =
+            score = 50
+            break
     return score
 
 
