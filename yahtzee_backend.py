@@ -125,13 +125,13 @@ def score_short_straight(dice):
     score = 0
     dice_copy = dice[:]
     short_straight_dice = sorted(set(dice_copy))
-    print(short_straight_dice)
     short_straight1 = [1,2,3,4]
     short_straight2 = [2,3,4,5]
-    short_straight3 = 
+    short_straight3 = [3,4,5,6]
     print(short_straight_dice[0:4])
     if short_straight_dice[0:4] == short_straight1:
         score = 30 
+
     
     return score
 
