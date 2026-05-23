@@ -24,11 +24,11 @@ mydice5 = [2,3,4,5,6]
 result = score_long_straight(mydice5)
 print(f"running  on {mydice5} ... result is {result}")
 
-game_state = init_game()
+#game_state = init_game()
 #game_state['locked'] = []
-print(game_state)
-roll_dice(game_state)
-print(game_state)
-display_game_state_debug(game_state)
-print(game_state['locked'])
-print(game_state['dice'])
+#print(game_state)
+#roll_dice(game_state)
+#print(game_state)
+#display_game_state_debug(game_state)
+#print(game_state['locked'])
+#print(game_state['dice'])
