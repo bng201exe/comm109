@@ -24,8 +24,8 @@ mydice5 = [2,3,4,5,6]
 result = score_long_straight(mydice5)
 print(f"running  on {mydice5} ... result is {result}")
 
-mydice5 = [2,3,4,5,6]
-result = score_long_straight(mydice5)
+mydice6 = [2,3,4,5,6]
+result = score_short_straight(mydice6)
 print(f"running  on {mydice5} ... result is {result}")
 
 #game_state = init_game()
