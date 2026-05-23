@@ -174,9 +174,9 @@ def score_chance(dice):
 def score_yahtzee(dice):
     score = 0
     dice_copy = dice[:]
-    sorted_dice_set = set(dice)
+    dice_set = set(dice)
     for i in range(1,7):
-        if sorted_dice_set == i:
+        if sorteddice_set == i:
             score = 50
             break
     return score
