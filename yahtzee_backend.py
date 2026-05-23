@@ -185,7 +185,8 @@ def initialise_game():
     
 
 def roll_dice(game_state):
-    for game_state[]
+    for game_state["locked"]:
+    
             game_state['dice'][i] = random.randint(1,6)
     return
 
