@@ -194,7 +194,8 @@ def roll_dice(game_state):
         if i == True:
             locked_copy2.append("True")
     for i in locked_copy2:
-        if i 
+        if i == "False":
+            
     print(locked_copy2)
 
     
