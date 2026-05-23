@@ -192,6 +192,7 @@ def roll_dice(game_state):
             indices.append(i)
     print(indices)
     for die in game_state["dice"]:
+        roll = ran
         if "dice".index() in indices:
             dice = roll
         
