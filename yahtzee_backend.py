@@ -194,7 +194,7 @@ def roll_dice(game_state):
     for i in indices:
         roll = random.randint(1,6)
         game_state["dice"[i]] = roll
-        
+        continue
 
     
     return
