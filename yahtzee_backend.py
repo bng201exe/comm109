@@ -76,33 +76,85 @@ row_to_char = { 'ONES': '1',
                 'YAHTZEE': 'Y'}
 
 
+
+
 def score_upper_section(dice, val):
     score = 0
+    for i in dice:
+        if i == val:
+            score += i
+
     return score
 
 
 def score_3_of_a_kind(dice):
     score = 0
+    counts = []
+    dice_copy = dice[:]
+    for i in range(1,7):
+        if i in dice_copy:
+            counts.append(dice_copy.count(i))
+    
+    for i in counts:
+        if i >= 3:
+            three_sum = sum(dice)
+            score += three_sum
+            break
+    
     return score
 
 
 def score_4_of_a_kind(dice):
     score = 0
+    counts = []
+    dice_copy = dice[:]
+    for i in range(1,7):
+        if i in dice_copy:
+            counts.append(dice_copy.count(i))
+    
+    for i in counts:
+        if i >= 4:
+            four_sum = sum(dice)
+            score += four_sum
+            break
     return score
+
 
 
 def score_short_straight(dice):
     score = 0
+    dice_copy = dice[:]
+    sorted_dice = sorted(dice_copy)
+    if sorted_dice[0,3] == [1,2,3,4]:
+        score = 30
+    if sorted_dice[0,3] == [2,3,4,5]:
+        score = 30
+    
     return score
 
 
 def score_long_straight(dice):
     score = 0
+    dice_copy = dice[:]
+    sorted_dice = sorted(dice_copy)
+    if sorted_dice == [1,2,3,4,5]:
+        score = 50
+    if sorted_dice == [2, 3, 4, 5, 6]:
+        score = 50
     return score
 
 
 def score_full_house(dice):
     score = 0
+    counts = []
+    dice_copy = dice[:]
+    for i in range(1,7):
+        if i in dice_copy:
+            counts.append(dice_copy.count(i))
+    if (3 in counts) and (2 in counts):
+        score += 25 
+    
+    
     return score
 
 
@@ -121,6 +173,9 @@ def initialise_game():
     
 
 def roll_dice(game_state):
+    for i in range(5):
+        if game_state['locked'][i] == False:
+            game_state['dice'][i] = random.randint(1,6)
     return
 
 
