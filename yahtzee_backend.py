@@ -174,7 +174,7 @@ def score_chance(dice):
 def score_yahtzee(dice):
     score = 0
     dice_copy = dice[:]
-
+    
     for i in range(1,7):
     return score
 
