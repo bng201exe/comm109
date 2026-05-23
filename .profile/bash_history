@@ -95,3 +95,4 @@ pytest --version
 /usr/bin/python3 /workspaces/comm109/run_checks.py
 /usr/bin/python3 /workspaces/comm109/yahtzee_backend.py
 /usr/bin/python3 /workspaces/comm109/run_checks.py
+/usr/bin/python3 /workspaces/comm109/yahtzee_backend.py
