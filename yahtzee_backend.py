@@ -167,7 +167,7 @@ def score_full_house(dice):
 
 def score_chance(dice):
     score = 0
-    
+    score 
     return score
 
 
