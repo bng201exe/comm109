@@ -138,7 +138,6 @@ def score_short_straight(dice):
         print("Can't be score here!")
     
 
-    
     return score
 
 
