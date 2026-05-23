@@ -194,7 +194,7 @@ def roll_dice(game_state):
     for die in game_state["dice"]:
         for i in indices:
             if die.index() == i:
-                game_state
+                game_state["dice"[i]] = 
     print(indices)
     
     return
