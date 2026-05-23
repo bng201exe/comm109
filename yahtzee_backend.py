@@ -130,7 +130,7 @@ def score_short_straight(dice):
     short_straight3 = [3,4,5,6]
     if short_straight_dice[0:4] == short_straight1:
         score = 30 
-    if short_straight_dice[0:4] == short_straight2:
+    if (short_straight_dice[0:4] == short_straight2)
         score = 30
     if short_straight_dice[0:4] 
 
