@@ -160,7 +160,6 @@ def score_full_house(dice):
     if (3 in counts) and (2 in counts):
         score += 25 
     
-    
     return score
 
 
