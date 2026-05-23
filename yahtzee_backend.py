@@ -205,6 +205,7 @@ def reset_dice(game_state):
 
 
 def lock_dice(game_state, dice_to_keep):
+    for game
     return success
 
 
