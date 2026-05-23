@@ -187,8 +187,8 @@ def initialise_game():
 def roll_dice(game_state):
     indices = []
     locked_copy = game_state["locked"[:]]
-    locked_copy2 = locked_copy.split("")
-    for i in locked_copy:
+    locked_copy2 = locked_copy.split(",")
+    for i in locked_copy2:
             if i == False:
                 indices.append(game_state["locked"].index(i))
     print(indices)
