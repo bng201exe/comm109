@@ -32,7 +32,7 @@ mydice7 = [2,2,4,5,6]
 result = score_chance(mydice7)
 print(f"running  on {mydice7} ... result is {result}")
 
-mydice8 = [2,2,4,5,6]
+mydice8 = [2,2,2,2,2]
 result = score_yahtzee(mydice8)
 print(f"running  on {mydice8} ... result is {result}")
 
