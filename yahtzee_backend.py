@@ -193,7 +193,8 @@ def roll_dice(game_state):
             indices.append(i)
     for i in game_state["dice"]:
         if i.index() in indices:
-            roll = random.randint
+            roll = random.randint(1,6)
+            
     print(indices)
     
     return
