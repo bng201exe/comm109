@@ -48,4 +48,4 @@ roll_dice(game_state)
 #print(game_state['locked'])
 print(game_state['dice'])
 
-toggle_dice(game_state, 1)
+toggle_dice(game_state, (1,2,3))
