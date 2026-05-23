@@ -195,8 +195,6 @@ def roll_dice(game_state):
         roll = random.randint(1,6)
         game_state["dice"[i]] = roll
         
-
-    
     return
 
 
