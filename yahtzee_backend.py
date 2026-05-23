@@ -136,7 +136,6 @@ def score_short_straight(dice):
         score = 30
     else:
         print("Can't be score here!")
-    
 
     return score
 
