@@ -134,6 +134,7 @@ def score_short_straight(dice):
         score = 30
     elif(short_straight_dice[0:4] == short_straight3) or (short_straight_dice[1:5] == short_straight3):
         score = 30
+    else
     
 
     
