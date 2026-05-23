@@ -193,7 +193,8 @@ def roll_dice(game_state):
             indices.append(i)
     for die in game_state["dice"]:
         for i in indices:
-            if die.index() == index
+            if die.index() == i:
+                
     print(indices)
     
     return
