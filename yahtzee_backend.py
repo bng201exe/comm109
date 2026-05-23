@@ -202,7 +202,7 @@ def roll_dice(game_state):
 
 def reset_dice(game_state):
     game_state["dice"] = ["-", "-", "-", "-", "-"]
-    game_state["locked"] == [False, False, False, False, False
+    game_state["locked"] = [False, False, False, False, False]
     return
 
 
