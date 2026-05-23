@@ -124,12 +124,6 @@ def score_4_of_a_kind(dice):
 def score_short_straight(dice):
     score = 0
     dice_copy = dice[:]
-    sorted_dice = sorted(dice_copy)
-    dice_set = set(sorted_dice)
-    short_straights = [ (1,2,3,4), (2,3,4,5), (3,4,5,6)]
-    for i in short_straights:
-        if i in dice_set:
-            score = 30
     
     return score
 
