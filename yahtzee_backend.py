@@ -201,7 +201,7 @@ def roll_dice(game_state):
 
 
 def reset_dice(game_state):
-    game_state["dice"] = {""}
+    game_state["dice"] = {"-", "-", "-", "-", }
     return
 
 
