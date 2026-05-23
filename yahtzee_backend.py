@@ -205,11 +205,11 @@ def reset_dice(game_state):
 
 
 def lock_dice(game_state, dice_to_keep):
-    game_state["locked"][dice_to_keep] =
     return success
 
 
 def toggle_dice(game_state, idx):
+    
     return
 
 
