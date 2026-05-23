@@ -187,7 +187,8 @@ def initialise_game():
 def roll_dice(game_state):
     indices = []
     locked_copy = game_state["locked"[:]]
-    
+    for i in locked_copy:
+        spli
     print(indices)
     
     return
