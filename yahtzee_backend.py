@@ -173,6 +173,7 @@ def score_chance(dice):
 
 def score_yahtzee(dice):
     score = 0
+    for i in range()
     return score
 
 
