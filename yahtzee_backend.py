@@ -175,9 +175,6 @@ def score_yahtzee(dice):
     dice_set = set(dice_copy)
     dice_list = list(dice_set)
     
-            score = 50
-
-        
     return score
 
 
