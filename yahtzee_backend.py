@@ -193,7 +193,7 @@ def roll_dice(game_state):
     print(indices)
     for die in game_state["dice"]:
         roll = random.randint(1,6)
-        if "dice".index() in indices:
+        if "dice".index(die) in indices:
             dice = roll
         
     return
