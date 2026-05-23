@@ -190,7 +190,7 @@ def roll_dice(game_state):
             if i == False:
                 indices.append(game_state["locked"].index(i))
     print(indices)
-            game_state['dice'][i] = random.randint(1,6)
+    game_state['dice'][i] = random.randint(1,6)
     return
 
 
