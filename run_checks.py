@@ -26,7 +26,7 @@ print(f"running  on {mydice5} ... result is {result}")
 
 mydice6 = [2,3,4,5,6]
 result = score_short_straight(mydice6)
-print(f"running  on {mydice5} ... result is {result}")
+print(f"running  on {mydice6} ... result is {result}")
 
 #game_state = init_game()
 #game_state['locked'] = []
