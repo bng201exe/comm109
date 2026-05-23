@@ -29,8 +29,8 @@ result = score_short_straight(mydice6)
 print(f"running  on {mydice6} ... result is {result}")
 
 mydice7 = [2,2,4,5,6]
-result = score_(mydice6)
-print(f"running  on {mydice6} ... result is {result}")
+result = score_chance(mydice7)
+print(f"running  on {mydice7} ... result is {result}")
 
 #game_state = init_game()
 #game_state['locked'] = []
