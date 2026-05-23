@@ -175,7 +175,7 @@ def score_yahtzee(dice):
     dice_set = set(dice_copy)
     if 2 == dice_set:
         score = 50
-        break
+        
     return score
 
 
