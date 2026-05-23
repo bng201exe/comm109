@@ -188,6 +188,7 @@ def roll_dice(game_state):
     indices = []
     for i in game_state["locked"]:
         
+        if i = ","
     for i in locked:
             if i == False:
                 indices.append(game_state["locked"].index(i))
