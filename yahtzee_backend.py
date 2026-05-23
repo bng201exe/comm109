@@ -124,7 +124,7 @@ def score_4_of_a_kind(dice):
 def score_short_straight(dice):
     score = 0
     dice_copy = dice[:]
-    short_straights = {(1,2,3,4), (2,3,4,5), (3,4,5,6)}
+    short_straights = ((1,2,3,4), (2,3,4,5), (3,4,5,6))
     short_straight_dice = sorted(set(dice_copy))
     for i in short_straights:
         if i in short_straight_dice:
