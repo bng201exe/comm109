@@ -126,7 +126,7 @@ def score_short_straight(dice):
     dice_copy = dice[:]
     short_straight_dice = sorted(set(dice_copy))
     if short_straight_dice.pop(1,2,3,4) == True:
-        score = 
+        score = 30
     
     return score
 
