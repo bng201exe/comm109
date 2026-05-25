@@ -107,3 +107,4 @@ pytest --version
 /usr/bin/python3 /workspaces/comm109/test_score_four_of_a_kind.py
 /usr/bin/python3 /workspaces/comm109/test_score_long_straight.py
 /usr/bin/python3 /workspaces/comm109/test_score_chance.py
+/usr/bin/python3 /workspaces/comm109/run_checks.py
