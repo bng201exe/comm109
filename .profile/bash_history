@@ -109,3 +109,4 @@ pytest --version
 /usr/bin/python3 /workspaces/comm109/test_score_chance.py
 /usr/bin/python3 /workspaces/comm109/run_checks.py
 pytest
+git add .
