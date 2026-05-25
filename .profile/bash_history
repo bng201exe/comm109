@@ -110,3 +110,4 @@ pytest --version
 /usr/bin/python3 /workspaces/comm109/run_checks.py
 pytest
 git add .
+git commit -m "done"
